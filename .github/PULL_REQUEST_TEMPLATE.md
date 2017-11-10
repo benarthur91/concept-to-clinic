@@ -21,5 +21,37 @@
 ## Screenshots (if appropriate):
 
 
+## Metrics (if appropriate):
+
+<!--- 
+If you submitting a PR for a prediction algorithm (segmentation, identification, or classification 
+Please fill in values for as many as the below statistics as are relevant 
+
+metric           | link                                                          | relevant algorithms
+-----------------|---------------------------------------------------------------|--------------------
+jaccard loss     | https://en.wikipedia.org/wiki/Jaccard_index                   | segmentation
+logloss          | https://www.kaggle.com/c/data-science-bowl-2017#evaluation    | identification, classification
+training time    | https://stackoverflow.com/questions/385408                    | segmentation, identification, classification
+prediction time  | https://stackoverflow.com/questions/385408                    | segmentation, identification, classification
+data IO          | https://unix.stackexchange.com/questions/55212                | segmentation, identification, classification
+disk space usage | https://www.cyberciti.biz/faq/linux-check-disk-space-command/ | segmentation, identification, classification
+memory usage     | https://stackoverflow.com/questions/110259                    | segmentation, identification, classification
+
+algorithm      | relevant metrics
+---------------|------------------
+segmentation   | jaccard loss, training time, prediction time, data IO, disk space usage, memory usage
+identification | logloss, training time, prediction time, data IO, disk space usage, memory usage
+classification | logloss, training time, prediction time, data IO, disk space usage, memory usage
+
+When reporting your values, please use a format similar to the following example.
+
+algorithm    | metric | value
+-------------|--------|--------
+segmentation | jaccard loss | 0.5
+segmentation | prediction time (s) | 45
+segmentation | memory usage (MB) | 5.4
+
+-->
+
 ## CLA
 - [ ] I have signed the CLA; if other committers are in the commit history, they have signed the CLA as well
